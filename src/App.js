@@ -1,8 +1,13 @@
 import React from 'react';
-// Bora
+import Header from './components/Header';
+
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <main>
+        <Header />
+      </main>
+    );
   }
 }
 
