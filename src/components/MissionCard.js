@@ -5,7 +5,7 @@ class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <div className="mission-card" data-testid="mission-card">
         <h3 data-testid="mission-name">
           { name }
         </h3>
